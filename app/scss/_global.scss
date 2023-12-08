@@ -1,0 +1,19 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.row {
+  @media(min-width: 900px) {
+    display: flex;
+  }
+}
