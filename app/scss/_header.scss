@@ -1,0 +1,39 @@
+header {
+    .header-title {
+        color: $very-dark-magenta;
+        text-align: center;
+        margin-top: 2em;
+        font-size: 2.5rem;
+        line-height: 1em;
+    }
+
+    .header-text {
+        color: $dark-grayish-magenta;
+        text-align: center;
+        margin-top: 1.5em;
+        margin-bottom: 2.5em;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.25em;
+    }
+
+    .rating-box {
+        background-color: $light-grayish-magenta;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        padding: 1em 0;
+
+        .stars-container {
+            justify-content: center;
+            gap: .75em;
+            margin-bottom: 1em;
+        }
+
+        .rating-text {
+            text-align: center;
+            font-weight: 700;
+            color: $very-dark-magenta;
+            font-size: 1.2rem;
+        }
+    }
+}
