@@ -1,12 +1,26 @@
 header {
+    margin-top: 5em;
     margin-bottom: 3em;
+
+    .container {
+        justify-content: space-between;
+    }
+
+    .header-left {
+        @media(min-width:900px) {
+            width: 40%;
+        }
+    }
 
     .header-title {
         color: $very-dark-magenta;
         text-align: center;
-        margin-top: 2em;
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         line-height: 1em;
+
+        @media(min-width: 900px) {
+            text-align: left;
+        }
     }
 
     .header-text {
@@ -17,18 +31,45 @@ header {
         font-size: 1.2rem;
         font-weight: 500;
         line-height: 1.25em;
+
+        @media(min-width: 900px) {
+            text-align: left;
+        }
+    }
+
+    #reviews {
+        @media(min-width: 900px) {
+            right: 24%;
+        }
+    }
+
+    #report-guru {
+        @media(min-width: 900px) {
+            right: 12%;
+        }
     }
 
     .rating-box {
+        position: relative;
         background-color: $light-grayish-magenta;
         border-radius: 5px;
         margin-bottom: 1em;
         padding: 1em 0;
+        gap: 2em;
+
+        @media(min-width:900px) {
+            padding: 1em 2em;
+            padding-right: 3em;
+        }
 
         .stars-container {
             justify-content: center;
             gap: .75em;
             margin-bottom: 1em;
+
+            @media(min-width:900px) {
+                margin-bottom: 0;
+            }
         }
 
         .rating-text {
